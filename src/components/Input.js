@@ -1,7 +1,5 @@
-import { newElement } from '../utils/createElement';
-
 export function newInput(type) {
-  const input = newElement('input');
+  const input = document.createElement('input');
 
   input.type = type;
 
